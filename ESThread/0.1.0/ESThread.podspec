@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "Tomohiro Kumagai" => "http://ez-net.jp/profile/" }
   s.social_media_url   = "http://twitter.com/es_kumagai"
 
-#  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = "8.0"
   s.osx.deployment_target = "10.9"
 
   s.source       = { :git => "https://github.com/EZ-NET/ESThread.git", :tag => s.version }
