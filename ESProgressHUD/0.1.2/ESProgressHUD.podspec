@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.osx.source_files = "ESProgressHUD_OSX/**/*.swift"
 
   s.dependency  "ESCoreGraphicsExtension", "~> 0.1.2"
-  s.dependency  "ESAppKitExtension", "~> 0.1.1"
+  s.osx.dependency  "ESAppKitExtension", "~> 0.1.1"
   s.dependency	"ESActiveCounter", "~> 0.1.3"
 
 end
