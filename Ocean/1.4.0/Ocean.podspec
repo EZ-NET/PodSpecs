@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.dependency      "ESCoreGraphicsExtension", "~> 0.1.3"
   s.dependency      "ESNotification", "~> 0.2.0"
   s.dependency      "ESThread", "~> 0.1.0"
-  s.dependency      "Swim", "~> 1.4.0"
+  s.dependency      "Swim"
 
   s.osx.dependency  "ESAppKitExtension", "~> 0.1.1"
   s.osx.dependency  "ESProgressHUD", "~> 0.1.2"
