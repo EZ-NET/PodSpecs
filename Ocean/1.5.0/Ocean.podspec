@@ -30,6 +30,6 @@ Pod::Spec.new do |s|
   s.dependency      "Swim"
 
   s.osx.dependency  "ESAppKitExtension", "~> 0.1.1"
-  s.osx.dependency  "ESProgressHUD", "~> 0.1.2"
+  s.osx.dependency  "ESProgressHUD", "~> 0.2.0"
 
 end
